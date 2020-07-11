@@ -6,7 +6,7 @@ const cors = require('cors');
 
 const db = mysql.createConnection({
     host:"http://3.135.205.171",
-    port:"3300",
+    port:"80",
     user:"root",
     password:"root",
     database:"stockmanager"
